@@ -91,7 +91,7 @@ def get_ml_recommendations(results):
     recommendation = np.dot(P,Q)[0] #take the result of the prediction
     
     for each in movie_ids:
-        recommendation(each) = 0
+        each = 0
     #here I insert the exclusion rule
     recommendation = np.argsort(recommendation) #get the index of the best values, why variable is the same?
     
