@@ -8,5 +8,5 @@ install:
 # command to run tests
 script:
   - pytest
-  - recommender.py
-  - app.py
+  - recommender
+  - app
